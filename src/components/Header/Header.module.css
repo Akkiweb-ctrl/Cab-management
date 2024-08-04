@@ -1,0 +1,17 @@
+.header-container{
+ width:100%;
+}
+.active {
+  background-color: black;
+  color: #fff !important;
+}
+.nav-link-item {
+  color: black;
+}
+.nav-link-item:hover {
+  color: black;
+  /*   */
+}
+.name {
+  font-weight: 900;
+}

@@ -1,0 +1,10 @@
+.app-container{
+    display: flex;
+}
+/* .reschedule-container{
+    
+} */
+.main-section{
+    width: 100%;
+    margin:0 2rem;
+}
