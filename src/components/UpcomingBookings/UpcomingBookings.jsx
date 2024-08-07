@@ -9,7 +9,7 @@ const UpcomingBookings = ({setShowReschedule}) => {
   return (
     <div className={styles["upcoming-bookings"]}>
       <div className={styles["title"]}>
-        <h3>Upcoming bookings</h3>
+        <h3 className="font-bold text-lg">Upcoming bookings</h3>
       </div>
       {bookingList.length === 0 
       ? <div><p>There are no cabs booked.</p></div> 

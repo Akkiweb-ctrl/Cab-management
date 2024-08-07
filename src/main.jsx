@@ -5,10 +5,18 @@ import "./index.css";
 import BookingsContextProvider from "./store/BookingsContext.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { RecoilRoot } from "recoil";
+import Home from "./pages/Home.jsx";
+import FAQs from "./pages/FAQs.jsx";
+import LandingPage from "./pages/LandingPage.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    children:[
+      {path : "/", element:<LandingPage/>},
+      {path : "/home", element:<Home/>},
+      {path : "/FAQs", element:<FAQs/>}
+    ]
   },
 ]);
 

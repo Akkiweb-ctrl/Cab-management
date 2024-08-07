@@ -1,5 +1,7 @@
 .app-container{
     display: flex;
+    /* background-color: black; */
+    box-sizing: border-box;
 }
 /* .reschedule-container{
     
@@ -8,3 +10,4 @@
     width: 100%;
     margin:0 2rem;
 }
+

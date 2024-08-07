@@ -28,28 +28,28 @@ const NewBooking = () => {
   return (
     <div className={styles["form-container"]}>
       <div>
-        <h3 className={styles["title"]}>New Booking</h3>
+        <h3 className="mb-8 font-bold text-lg">New Booking</h3>
       </div>
       <form className={styles["booking-form"]} ref={inputForm}>
         <div className={styles["address"]}>
           <div className={styles["input"]}>
             <label htmlFor="pickup-location">Pickup location</label>
-            <input type="text" id="pickup-location" name="pickup" />
+            <input type="text" id="pickup-location" name="pickup" required/>
           </div>
           <div className={styles["input"]}>
             <label htmlFor="dropoff-location">Dropoff location</label>
-            <input type="text" id="dropoff-location" name="dropoff" />
+            <input type="text" id="dropoff-location" name="dropoff" required/>
           </div>
         </div>
 
         <div className={styles["date-time"]}>
           <div className={styles["input"]}>
             <label htmlFor="date">Date</label>
-            <input type="date" id="date" name="date" />
+            <input type="date" id="date" name="date" required/>
           </div>
           <div className={styles["input"]}>
             <label htmlFor="time">Time</label>
-            <input type="time" id="time" name="time" />
+            <input type="time" id="time" name="time" required/>
           </div>
         </div>
         <div className={styles["req"]}>
